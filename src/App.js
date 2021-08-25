@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import NewChart from "./components/formInput/NewChart";
+import DisplayAllData from "./components/formInput/DisplayAllData";
+const App = () => {
+  const [uData, setUData] = useState([]);
 
-function App() {
+  const onGetDatasHandler = (dataIsGet) => {
+    setUData((prevData) => {
+      return [ ...prevData, dataIsGet];
+    });
+  };
+
+  console.log(uData);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NewChart getDatas={onGetDatasHandler} />
+      <DisplayAllData onPassData={uData} />
     </div>
   );
-}
+};
 
 export default App;
