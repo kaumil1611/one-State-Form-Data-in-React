@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/one-State-Form-Data-in-React/static/css/main.106baaae.chunk.css",
+    "main.js": "/one-State-Form-Data-in-React/static/js/main.6084399e.chunk.js",
+    "main.js.map": "/one-State-Form-Data-in-React/static/js/main.6084399e.chunk.js.map",
+    "runtime-main.js": "/one-State-Form-Data-in-React/static/js/runtime-main.2749e5bf.js",
+    "runtime-main.js.map": "/one-State-Form-Data-in-React/static/js/runtime-main.2749e5bf.js.map",
+    "static/css/2.32c1ecfd.chunk.css": "/one-State-Form-Data-in-React/static/css/2.32c1ecfd.chunk.css",
+    "static/js/2.dd08e039.chunk.js": "/one-State-Form-Data-in-React/static/js/2.dd08e039.chunk.js",
+    "static/js/2.dd08e039.chunk.js.map": "/one-State-Form-Data-in-React/static/js/2.dd08e039.chunk.js.map",
+    "index.html": "/one-State-Form-Data-in-React/index.html",
+    "static/css/2.32c1ecfd.chunk.css.map": "/one-State-Form-Data-in-React/static/css/2.32c1ecfd.chunk.css.map",
+    "static/css/main.106baaae.chunk.css.map": "/one-State-Form-Data-in-React/static/css/main.106baaae.chunk.css.map",
+    "static/js/2.dd08e039.chunk.js.LICENSE.txt": "/one-State-Form-Data-in-React/static/js/2.dd08e039.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2749e5bf.js",
+    "static/css/2.32c1ecfd.chunk.css",
+    "static/js/2.dd08e039.chunk.js",
+    "static/css/main.106baaae.chunk.css",
+    "static/js/main.6084399e.chunk.js"
+  ]
+}
