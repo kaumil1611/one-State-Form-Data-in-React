@@ -1,6 +1,9 @@
 import React from 'react'
 
-const ChatFilter = () => {
+const ChatFilter = ({onChartFilter}) => {
+    const changeHandler = (event)=>{
+        onChartFilter(event);
+    }
     return (
             <select onChange={changeHandler}>
                 <option value=''>Select Value</option>
